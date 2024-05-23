@@ -21,5 +21,4 @@ def leaderboard_api():
     return jsonify(participants)
 
 if __name__ == '__main__':
-    # Run the Flask app on localhost, port 5000
-    app.run(host='', port=3000, debug=True)
+    app.run(debug=True)
